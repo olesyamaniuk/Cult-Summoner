@@ -23,16 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleAnswer(element) {
   const answer = element.nextElementSibling;
-  const button = element.querySelector(".toggle-button");
-  
+  const buttonImg = element.querySelector(".toggle-button img"); // Знайти <img> всередині кнопки
+
   if (answer.style.display === "none" || answer.style.display === "") {
     answer.style.display = "block";
-    button.textContent = "-";
+    buttonImg.src = "/image/faq//icon.png"; // Змінити на іконку вгору
   } else {
     answer.style.display = "none";
-    button.textContent = "+";
+    buttonImg.src = "/image/faq/arrow.png"; // Змінити на іконку вниз
   }
 }
+
 
 
 

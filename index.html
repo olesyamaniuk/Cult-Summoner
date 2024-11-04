@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tile Island</title>
-    <link rel="icon" href="img/favicon-500x500.png" />
+    <title>Cult Summoner: RPG Summoning</title>
+    <link rel="icon" href="image/Fav B.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,9 +56,7 @@
           <li class="navigation__item">
             <a href="/#advantages" class="navigation__link">Game Description</a>
           </li>
-          <li class="navigation__item">
-            <a href="/#features" class="navigation__link">Unique Features</a>
-          </li>
+
           <li class="navigation__item">
             <a href="/#play" class="navigation__link">How to Play</a>
           </li>
@@ -68,25 +66,21 @@
           <li class="navigation__item">
             <a href="/#gallery" class="navigation__link">Gallery</a>
           </li>
-
-          <li class="navigation__item navigation__item-desk">
-            <a href="policy.html" class="navigation__link">Privacy Policy</a>
-          </li>
-          <li class="navigation__item navigation__item-desk">
-            <a href="terms.html" class="navigation__link">Terms of Service</a>
-          </li>
         </ul>
 
         <div class="header__button-wrapper">
           <button type="button" class="header__icon-button" data-menu-button>
             <img
               class="header__icon header__icon--menu"
-              src="img/Burger-icon.png"
+              src="image/header/Vector (1).png"
               alt=""
             />
-            <svg class="header__icon header__icon--close close">
-              <use href="./img/sprite.svg#icon-cancel"></use>
-            </svg>
+
+            <img
+              class="header__icon header__icon--close close"
+              src="image/header/Vector.png"
+              alt=""
+            />
           </button>
         </div>
       </nav>
@@ -98,12 +92,12 @@
           <div class="home__container-top">
             <a
               class="home__google-button_link"
-              href="https://play.google.com/store/apps/details?id=com.qublix.tilegame"
+              href="https://play.google.com/store/apps/details?id=br.com.tapps.cult.summoner"
               target="_blank"
             >
               <img
                 class="home__google-button_image"
-                src="./img/hero/Group.png"
+                src="./image/hero/Button.png"
                 alt=""
               />
             </a>
@@ -112,34 +106,17 @@
       </section>
 
       <section class="advantages" id="advantages">
-        <h2 class="visually-hidden">Advantages</h2>
+        <h2 class="visually-hidden">Game Description</h2>
 
         <div class="advantages__container">
           <img
             class="advantages-image"
-            src="img/GameDescription/Secrion-2-Game Description.png"
+            src="image/GameDescription/Game Description.png"
             alt=""
           />
           <img
             class="advantages-image-desk"
-            src="img/GameDescription/Secrion-2-Game Description (1).png"
-            alt=""
-          />
-        </div>
-      </section>
-
-      <section class="features" id="features">
-        <h2 class="visually-hidden">features</h2>
-
-        <div class="features__container">
-          <img
-            class="features-image"
-            src="img/UniqueFeatures/Secrion-3-Unique Features.png"
-            alt=""
-          />
-          <img
-            class="features-image-desk"
-            src="img/UniqueFeatures/Secrion-3-Unique Features (1).png"
+            src="image/GameDescription/Game Description (1).png"
             alt=""
           />
         </div>
@@ -151,156 +128,199 @@
         <div class="play__container">
           <img
             class="play-image"
-            src="img/HowtoPlay/Secrion-4-How to Play.png"
+            src="image/HowtoPlay/How to Play (2).png"
             alt=""
           />
           <img
             class="play-image-desk"
-            src="img/HowtoPlay/Secrion-4-How to Play (1).png"
+            src="image/HowtoPlay/How to Play (3).png"
             alt=""
           />
         </div>
       </section>
-    </main>
-    <section class="faq" id="faq">
-      <h2 class="visually-hidden">faq</h2>
+      <section class="faq" id="faq">
+        <h2 class="faq-title">FAQ</h2>
 
-      <div class="faq-container">
-        <img class="faq-title" src="/img/faq/Header.png" alt="faq" />
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can I play Tile Island offline?</span>
-              <button class="toggle-button">+</button>
+        <div class="faq-container">
+          <!-- <img class="faq-title" src="/image/faq/FAQ (5).png" alt="faq" /> -->
+          <div class="faq-list">
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Is Cult Summoner free to play?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Yes, the game is free to download, with optional in-app
+                purchases available.
+              </div>
             </div>
-            <div class="faq-answer">
-              Yes, Tile Island can be played offline, though some features may
-              require an internet connection.
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Can I play offline?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Yes, Cult Summoner supports offline play, allowing you to enjoy
+                the game anywhere.
+              </div>
             </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Is Tile Island suitable for all ages?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, it’s suitable for a wide range of players, though please
-              check the content rating for specific details.
-            </div>
-          </div>
 
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Are there in-app purchases in Tile Island?</span>
-              <button class="toggle-button">+</button>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Are there any age restrictions?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Cult Summoner is designed for players of all ages, offering
+                family-friendly gameplay.
+              </div>
             </div>
-            <div class="faq-answer">
-              Yes, optional in-app purchases are available in the game.
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>How can I level up my character?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Complete quests and battles to earn experience points and unlock
+                new abilities.
+              </div>
             </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How do I unlock more levels?</span>
-              <button class="toggle-button">+</button>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>What types of creatures can I summon?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                You can summon a wide variety of creatures, each with unique
+                skills and attributes.
+              </div>
             </div>
-            <div class="faq-answer">
-              Complete each level and special challenges to unlock additional
-              content.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can I play with friends?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Look for any multiplayer or leaderboard features that allow
-              friendly competition.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>What if I’m stuck on a level?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Use power-ups or explore tips and strategies online to get through
-              tougher levels.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How often is new content added?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              New levels, events, and features are added regularly to keep the
-              experience fresh.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Where can I get support?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              For any issues, refer to the support information available on the
-              Google Play Store or within the game’s settings.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Is Tile Island suitable for all ages?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, it’s suitable for a wide range of players, though please
-              check the content rating for specific details.
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Are there regular updates?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/image/faq/arrow.png"
+                    alt="Toggle"
+                    width="44"
+                    height="44"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Yes, we regularly update the game with new content to enhance
+                your gaming experience.
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="gallery" id="gallery">
-      <img class="faq-title" src="/img/gallery/Header (2).png" alt="faq" />
-      <div class="gallery__container">
-        <ul class="gallery__list">
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img1.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img2.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img3.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img4.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img5.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img6.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img7.png" alt="" />
-          </li>
-        </ul>
-      </div>
-    </section>
+      <section class="gallery" id="gallery">
+        <h2 class="faq-title">Gallery</h2>
 
+        <div class="gallery__container">
+          <ul data-aos="fade-down" class="gallery__list">
+            <li class="gallery__item">
+              <img
+                class="gallery-avatar"
+                src="./image/gallery/unnamed.png"
+                alt="User Avatar"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery-avatar"
+                src="./image/gallery/unnamed2.png"
+                alt="User Avatar"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery-avatar"
+                src="./image/gallery/unnamed3.png"
+                alt="User Avatar"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery-avatar"
+                src="./image/gallery/unnamed4.png"
+                alt="User Avatar"
+              />
+            </li>
+            <li class="gallery__item">
+              <img
+                class="gallery-avatar"
+                src="./image/gallery/unnamed1.png"
+                alt="User Avatar"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="gallery-button-container">
+          <button class="gallery-button gallery__list-left">
+            <img
+              class="gallery-button-icon"
+              src="image/gallery/Group 127.png"
+              alt=""
+            />
+          </button>
+          <button class="gallery-button gallery__list-right">
+            <img
+              class="gallery-button-icon"
+              src="image//gallery/Group 128.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer-container">
+        <div class="footer-wrapper">
+          <a class="footer-text" href="policy.html">Privacy Policy</a>
+          <a class="footer-texts"> | </a>
+          <a class="footer-text" href="terms.html">Terms & Conditions</a>
+        </div>
         <p class="footer-copyright">
           All rights reserved questbeststart.com | 2024
         </p>
-        <div class="footer-wrapper">
-          <a class="footer-text" href="policy.html">Privacy Policy</a>
-          <a class="footer-texts"> / </a>
-          <a class="footer-text" href="terms.html">Terms & Conditions</a>
-        </div>
       </div>
     </footer>
 
