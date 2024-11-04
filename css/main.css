@@ -376,6 +376,7 @@ a {
     padding-block: 20px;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
   }
   .navigation__list {
     background-color: transparent;
